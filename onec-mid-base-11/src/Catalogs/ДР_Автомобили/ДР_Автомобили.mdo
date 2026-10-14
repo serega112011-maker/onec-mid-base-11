@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4126ab23-60fc-4502-9e95-bd9c7fee3c3d">
+  <producedTypes>
+    <objectType typeId="ddd9cc00-8e28-4cd2-bba0-8255f65577b8" valueTypeId="627e88f3-b89c-43d6-8b55-b259667b7e76"/>
+    <refType typeId="ab8e5816-98d2-44da-a751-be96fb8ffb5a" valueTypeId="099b947c-5b6d-4e09-b63e-66d5742c213e"/>
+    <selectionType typeId="bb31562b-0b51-420c-8e54-58d3e78e1f1e" valueTypeId="1239eaf7-0e78-4446-8ee0-c9c0e982b50c"/>
+    <listType typeId="0f7efc99-4c63-4c7c-a868-751cd9e2c899" valueTypeId="c7718743-16a4-401c-aee1-1b25787bd09e"/>
+    <managerType typeId="cf88a89e-3c6a-4d9b-986f-7202961e0528" valueTypeId="ea0305b9-1cd6-4366-9ff6-9f05b570f0cb"/>
+  </producedTypes>
+  <name>ДР_Автомобили</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автомобили</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДР_Автомобили.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДР_Автомобили.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b9321420-62cd-4990-8083-59bcd33d9b7e">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f6d5e552-45fe-41a9-a273-241da1c8f0bd">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
